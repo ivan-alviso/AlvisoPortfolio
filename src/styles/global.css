@@ -211,8 +211,31 @@ body::before {
 
   .project-display {
     order: 1;
-    width: 100%;
+    width: 100% !important;
+    height: 350px !important;
     min-height: 350px !important;
+    max-height: 400px !important;
+  }
+
+  .project-preview-card {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 350px !important;
+    max-height: 400px !important;
+  }
+
+  .project-preview-empty {
+    height: 350px !important;
+    min-height: 350px !important;
+    max-height: 400px !important;
+  }
+
+  .project-image {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
   }
 
   .project-list {
@@ -338,18 +361,42 @@ body::before {
   }
 
   .project-preview-empty {
-    min-height: 260px;
+    min-height: 260px !important;
+    height: 260px !important;
+    max-height: 320px !important;
     background-size: 24px 24px;
   }
 
 
   /* FIX: Ensure vertical stacking on mobile */
   .projects-layout {
-    display: flex;
+    display: flex !important;
     grid-template-columns: 1fr !important ;
-    flex-direction: column;
-    gap: 15px;
-    height: auto;
+    flex-direction: column !important;
+    gap: 15px !important;
+    height: auto !important;
+  }
+
+  .project-display {
+    width: 100% !important;
+    min-height: 260px !important;
+    height: 260px !important;
+    max-height: 320px !important;
+  }
+
+  .project-preview-card {
+    width: 100% !important;
+    min-height: 260px !important;
+    height: 100% !important;
+    max-height: 320px !important;
+  }
+
+  .project-image {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
   }
 
   .project-display {
@@ -492,7 +539,31 @@ body::before {
 /* Small mobile screens */
 @media (max-width: 480px) {
   .project-display {
-    min-height: 250px !important;
+    min-height: 220px !important;
+    height: 220px !important;
+    max-height: 260px !important;
+    width: 100% !important;
+  }
+
+  .project-preview-card {
+    width: 100% !important;
+    min-height: 220px !important;
+    height: 100% !important;
+    max-height: 260px !important;
+  }
+
+  .project-preview-empty {
+    min-height: 220px !important;
+    height: 220px !important;
+    max-height: 260px !important;
+  }
+
+  .project-image {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
   }
 
   .project-list {
