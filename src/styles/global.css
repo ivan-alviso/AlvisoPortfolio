@@ -193,7 +193,7 @@ body::before {
   .project-display {
     order: 1;
     width: 100%;
-    min-height: 350px;
+    min-height: 350px !important;
   }
 
   .project-list {
@@ -318,6 +318,12 @@ body::before {
     padding-bottom: 70px;
   }
 
+  .project-preview-empty {
+    min-height: 260px;
+    background-size: 24px 24px;
+  }
+
+
   /* FIX: Ensure vertical stacking on mobile */
   .projects-layout {
     display: flex;
@@ -329,7 +335,7 @@ body::before {
 
   .project-display {
     width: 100%;
-    min-height: 300px;
+    min-height: 350px !important;
     height: auto;
     flex-shrink: 0;
   }
@@ -469,7 +475,7 @@ body::before {
 /* Small mobile screens */
 @media (max-width: 480px) {
   .project-display {
-    min-height: 250px;
+    min-height: 250px !important;
   }
 
   .project-list {
