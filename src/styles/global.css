@@ -420,7 +420,8 @@ body::before {
   .project-details,
   .project-card.active .project-details,
   .project-card:hover .project-details {
-    max-height: none;
+    max-height: none !important;
+    min-height: fit-content !important;
     overflow: visible;
     opacity: 1;
   }
