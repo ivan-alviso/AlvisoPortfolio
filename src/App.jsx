@@ -208,13 +208,13 @@ export default function App() {
                     />
                   </label>
                   <div className="about-links">
-                    <a href="mailto:hello@ivan.com" aria-label="Email">
+                    <a href="mailto:ivanalviso@outlook.com" aria-label="Email">
                       <svg viewBox="0 0 24 24" aria-hidden="true">
                         <path d="M2 6.5A2.5 2.5 0 014.5 4h15A2.5 2.5 0 0122 6.5v11A2.5 2.5 0 0119.5 20h-15A2.5 2.5 0 012 17.5v-11zM4.8 6.7l7.2 5.05 7.2-5.05H4.8zm0 2.1V17.5h14.4V8.8l-7.2 5.05-7.2-5.05z" />
                       </svg>
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/ivan-alviso"
+                      href="https://www.linkedin.com/in/ivan-alviso-958975157/"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="LinkedIn"
